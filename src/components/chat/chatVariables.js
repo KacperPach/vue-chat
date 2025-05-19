@@ -6,6 +6,25 @@ export const selectedChat = reactive({
   userName: '',
   userMessages: [],
 
+  appendMessage(userMessage) {
+    const message = {
+      from: 'noUser',
+      to: this.userUuid,
+      message: userMessage,
+    }
+    // ten endpoint nie jest poprawinie obsługiwany przez mockapi
+    fetch(chatsUrl, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(message),
+    })
+      .then((res) => res.json())
+      .then((data) => console.log(data))
+      .catch((err) => console.log(err))
+    this.userMessages.push({ text: userMessage, uuid: 'noUser' })
+  },
   fetchMessages() {
     fetch(chatsUrl + '/' + this.userUuid)
       .then((res) => res.json())

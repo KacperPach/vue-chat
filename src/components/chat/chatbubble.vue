@@ -1,8 +1,13 @@
+<script setup>
+const props = defineProps(['isUserMessage'])
+</script>
+
 <template>
-  <div>
+  <div :style="props.isUserMessage ? { 'align-self': 'flex-end' } : { 'align-self': 'flex-start' }">
     <slot></slot>
   </div>
 </template>
+
 <style scoped>
 div {
   align-self: baseline;

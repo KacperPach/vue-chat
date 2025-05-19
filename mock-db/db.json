@@ -21,40 +21,97 @@
     {
       "userId": "a1b2c3d4-e5f6-7890-1234-567890abcdef",
       "messages": [
-        { "text": "Hello?" },
-        { "text": "Is anyone there?" },
-        { "text": "The tea party is starting soon!" },
-        { "text": "Where did the White Rabbit go?" },
-        { "text": "Curiouser and curiouser..." }
+        {
+          "text": "Hello?",
+          "uuid": "a1b2c3d4-e5f6-7890-1234-567890abcdef"
+        },
+        {
+          "text": "Is anyone there?",
+          "uuid": "a1b2c3d4-e5f6-7890-1234-567890abcdef"
+        },
+        {
+          "text": "The tea party is starting soon!",
+          "uuid": "a1b2c3d4-e5f6-7890-1234-567890abcdef"
+        },
+        {
+          "text": "Where did the White Rabbit go?",
+          "uuid": "a1b2c3d4-e5f6-7890-1234-567890abcdef"
+        },
+        {
+          "text": "Curiouser and curiouser...",
+          "uuid": "a1b2c3d4-e5f6-7890-1234-567890abcdef"
+        }
       ]
     },
     {
       "userId": "f9e8d7c6-b5a4-3210-fedc-ba9876543210",
       "messages": [
-        { "text": "We need more cement!" },
-        { "text": "Can we fix it?" },
-        { "text": "Yes, we can!" },
-        { "text": "Lofty, lift that beam!" },
-        { "text": "Roley, dozer, Dizzy, Muck!" }
+        {
+          "text": "We need more cement!",
+          "uuid": "f9e8d7c6-b5a4-3210-fedc-ba9876543210"
+        },
+        {
+          "text": "Can we fix it?",
+          "uuid": "f9e8d7c6-b5a4-3210-fedc-ba9876543210"
+        },
+        {
+          "text": "Yes, we can!",
+          "uuid": "f9e8d7c6-b5a4-3210-fedc-ba9876543210"
+        },
+        {
+          "text": "Lofty, lift that beam!",
+          "uuid": "f9e8d7c6-b5a4-3210-fedc-ba9876543210"
+        },
+        {
+          "text": "Roley, dozer, Dizzy, Muck!",
+          "uuid": "f9e8d7c6-b5a4-3210-fedc-ba9876543210"
+        }
       ]
     },
     {
       "userId": "01234567-89ab-cdef-0123-456789abcdef01",
       "messages": [
-        { "text": "(Tips his hat with a smile)" },
-        { "text": "(Performs a little jig)" },
-        { "text": "(Mimes eating an imaginary cake)" },
-        { "text": "(Points towards an unseen spectacle)" }
+        {
+          "text": "(Tips his hat with a smile)",
+          "uuid": "01234567-89ab-cdef-0123-456789abcdef01"
+        },
+        {
+          "text": "(Performs a little jig)",
+          "uuid": "01234567-89ab-cdef-0123-456789abcdef01"
+        },
+        {
+          "text": "(Mimes eating an imaginary cake)",
+          "uuid": "01234567-89ab-cdef-0123-456789abcdef01"
+        },
+        {
+          "text": "(Points towards an unseen spectacle)",
+          "uuid": "01234567-89ab-cdef-0123-456789abcdef01"
+        }
       ]
     },
     {
       "userId": "bcdefa01-2345-6789-abcd-ef0123456789",
       "messages": [
-        { "text": "For the honor of Themyscira!" },
-        { "text": "The truth must be revealed." },
-        { "text": "Fear not, for I am here." },
-        { "text": "By Hera's name!" },
-        { "text": "My bracelets can deflect any blow." }
+        {
+          "text": "For the honor of Themyscira!",
+          "uuid": "bcdefa01-2345-6789-abcd-ef0123456789"
+        },
+        {
+          "text": "The truth must be revealed.",
+          "uuid": "bcdefa01-2345-6789-abcd-ef0123456789"
+        },
+        {
+          "text": "Fear not, for I am here.",
+          "uuid": "bcdefa01-2345-6789-abcd-ef0123456789"
+        },
+        {
+          "text": "By Hera's name!",
+          "uuid": "bcdefa01-2345-6789-abcd-ef0123456789"
+        },
+        {
+          "text": "My bracelets can deflect any blow.",
+          "uuid": "bcdefa01-2345-6789-abcd-ef0123456789"
+        }
       ]
     }
   ]
