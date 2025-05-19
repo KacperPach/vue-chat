@@ -2,8 +2,9 @@
 const tempUrl = import.meta.env.VITE_API_URL_USERS
 
 import { onMounted, ref } from 'vue'
+import { selectedChat } from './chatVariables'
 
-const friendList = ref({})
+const friendList = ref()
 onMounted(() => {
   fetch(tempUrl)
     .then((res) => res.json())
@@ -16,8 +17,10 @@ onMounted(() => {
   <div class="chatWindow">
     <h2>Friends</h2>
     <hr />
-    <div v-for="friend in friendList" class="friendItem">
-      <a>{{ friend.name }}</a>
+    <div class="friendContainer">
+      <div v-for="friend in friendList" class="friendItem">
+        <a @click="selectedChat.setUser(friend)">{{ friend.name }}</a>
+      </div>
     </div>
   </div>
 </template>
@@ -40,5 +43,8 @@ hr {
 .friendItem {
   display: flex;
   justify-content: center;
+}
+.friendContainer {
+  overflow: auto;
 }
 </style>

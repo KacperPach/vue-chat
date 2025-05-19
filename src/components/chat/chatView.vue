@@ -1,8 +1,10 @@
-<script setup></script>
+<script setup>
+import { selectedChat } from './chatVariables'
+</script>
 
 <template>
   <div class="chatWindow">
-    <h2>Chat</h2>
+    <h2>Chat z: {{ selectedChat.userName }}</h2>
     <hr />
   </div>
 </template>
