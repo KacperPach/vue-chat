@@ -9,7 +9,7 @@ export const selectedChat = reactive({
   fetchMessages() {
     fetch(chatsUrl + '/' + this.userUuid)
       .then((res) => res.json())
-      .then((data) => console.log(data))
+      .then((data) => (this.userMessages = data[0].messages))
       .catch((err) => console.log(err))
   },
   setUserName(name) {

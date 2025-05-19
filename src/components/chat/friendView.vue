@@ -14,7 +14,7 @@ onMounted(() => {
 </script>
 
 <template>
-  <div class="chatWindow">
+  <div class="friendWindow">
     <h2>Friends</h2>
     <hr />
     <div class="friendContainer">
@@ -26,7 +26,7 @@ onMounted(() => {
 </template>
 
 <style scoped>
-.chatWindow {
+.friendWindow {
   display: flex;
   flex-direction: column;
   width: 20vw;
