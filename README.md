@@ -22,6 +22,12 @@ npm install
 npm run dev
 ```
 
+#### To run Mock-api use
+
+```sh
+npm run mock-api
+```
+
 ### Compile and Minify for Production
 
 ```sh
