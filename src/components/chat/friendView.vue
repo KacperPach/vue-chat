@@ -1,12 +1,12 @@
 <script setup>
-const tempUrl = import.meta.env.VITE_API_URL_USERS
+const usersUrl = import.meta.env.VITE_API_URL_USERS
 
 import { onMounted, ref } from 'vue'
 import { selectedChat } from './chatVariables'
 
 const friendList = ref()
 onMounted(() => {
-  fetch(tempUrl)
+  fetch(usersUrl)
     .then((res) => res.json())
     .then((data) => (friendList.value = data))
     .catch((err) => console.log(err))

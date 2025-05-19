@@ -16,5 +16,46 @@
       "name": "Diana Prince",
       "uuid": "bcdefa01-2345-6789-abcd-ef0123456789"
     }
+  ],
+  "chats": [
+    {
+      "userId": "a1b2c3d4-e5f6-7890-1234-567890abcdef",
+      "messages": [
+        { "text": "Hello?" },
+        { "text": "Is anyone there?" },
+        { "text": "The tea party is starting soon!" },
+        { "text": "Where did the White Rabbit go?" },
+        { "text": "Curiouser and curiouser..." }
+      ]
+    },
+    {
+      "userId": "f9e8d7c6-b5a4-3210-fedc-ba9876543210",
+      "messages": [
+        { "text": "We need more cement!" },
+        { "text": "Can we fix it?" },
+        { "text": "Yes, we can!" },
+        { "text": "Lofty, lift that beam!" },
+        { "text": "Roley, dozer, Dizzy, Muck!" }
+      ]
+    },
+    {
+      "userId": "01234567-89ab-cdef-0123-456789abcdef01",
+      "messages": [
+        { "text": "(Tips his hat with a smile)" },
+        { "text": "(Performs a little jig)" },
+        { "text": "(Mimes eating an imaginary cake)" },
+        { "text": "(Points towards an unseen spectacle)" }
+      ]
+    },
+    {
+      "userId": "bcdefa01-2345-6789-abcd-ef0123456789",
+      "messages": [
+        { "text": "For the honor of Themyscira!" },
+        { "text": "The truth must be revealed." },
+        { "text": "Fear not, for I am here." },
+        { "text": "By Hera's name!" },
+        { "text": "My bracelets can deflect any blow." }
+      ]
+    }
   ]
 }

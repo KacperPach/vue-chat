@@ -1,0 +1,3 @@
+{
+  "/chats/:uuid": "/chats?userId=:uuid"
+}
